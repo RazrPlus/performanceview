@@ -1,0 +1,84 @@
+﻿{
+	"airModelList" : [
+		{
+			"type" : "air",
+			"name" : "su27",
+			"modelUrl" : "airModel/su27.gltf",
+			"imageUrl" : ""
+		},
+		{
+			"type" : "air",
+			"name" : "AWACS",
+			"modelUrl" : "airModel/AWACS.glb",
+			"imageUrl" : ""
+		}
+	],
+	"seaModelList" : [
+	],
+	"landModelList" : [
+		{
+			"type" : "radar",
+			"name" : "LeiDaGuo",
+			"modelUrl" : "landModel/LeiDaGuo.gltf",
+			"imageUrl" : ""
+		}
+	],
+	"satelliteList" : [
+		{
+			"type" : "BEIDOU",
+			"name" : "北斗卫星",
+			"modelUrl" : "Data/model/satelliteModel/BD1H.gltf",
+			"imageUrl" : "Data/images/satelliteDot/BEIDOU.png",
+			"orbitColor": "rgb(170, 255, 36, 1)"
+		},
+		{
+			"type" : "GALILEO",
+			"name" : "伽利略卫星",
+			"modelUrl" : "Data/model/satelliteModel/GALILEO.gltf",
+			"imageUrl" : "Data/images/satelliteDot/GALILEO.png",
+			"orbitColor": "rgb(255, 196, 36, 1)"
+		},
+		{
+			"type" :"GLONASS",
+            "name": "格洛纳斯卫星",
+			"modelUrl" : "Data/model/satelliteModel/GLONASS.gltf",
+			"imageUrl" : "Data/images/satelliteDot/GLONASS.png",
+			"orbitColor": "rgb(255, 36, 77, 1)"
+		},
+		{
+			"type" : "GPS",
+			"name" : "GPS卫星",
+			"modelUrl" : "Data/model/satelliteModel/GPS.gltf",
+			"imageUrl" : "Data/images/satelliteDot/GPS.png",
+			"orbitColor": "rgb(36, 180, 255, 1)"
+		},
+		{
+			"type" : "debris",
+			"name" : "太空碎片",
+			"modelUrl" : "Data/model/satelliteModel/LAJI01.gltf",
+			"imageUrl" : "Data/images/satelliteDot/debris.png",
+			"orbitColor": "rgb(36, 255, 191, 1)"
+		},
+		{
+			"type" : "debris",
+			"name" : "太空碎片",
+			"modelUrl" : "Data/model/satelliteModel/LAJI02.gltf",
+			"imageUrl" : "Data/images/satelliteDot/debris.png",
+			"orbitColor": "rgb(36, 255, 191, 1)"
+		},
+		{
+			"type" : "debris",
+			"name" : "太空碎片",
+			"modelUrl" : "Data/model/satelliteModel/LAJI03.gltf",
+			"imageUrl" : "Data/images/satelliteDot/debris.png",
+			"orbitColor": "rgb(36, 255, 191, 1)"
+		}
+	],
+	"satelliteTleUrl": [
+		"json/satelliteTle/BEIDOU.tle",
+		"json/satelliteTle/debris.tle",
+		"json/satelliteTle/GALILEO.tle",
+		"json/satelliteTle/GLONASS.tle",
+		"json/satelliteTle/GPS.tle"
+	]
+}

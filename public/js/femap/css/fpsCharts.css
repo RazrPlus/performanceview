@@ -1,0 +1,169 @@
+#fpsCharts-frameInfo {
+    width: 476px;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    padding: 0 12px;
+    z-index: 99
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-top {
+    display: flex;
+    background: url('../Data/images/fpsCharts/background.png');
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-echarts-container {
+    height: 174px;
+    width: 443px;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete {
+    width: 15px;
+    height: 15px;
+    padding-top: 40px;
+    background: url('../Data/images/fpsCharts/off_normal.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete:hover, #fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete:active {
+    width: 15px;
+    height: 15px;
+    padding-top: 40px;
+    background: url('../Data/images/fpsCharts/off_press.png') no-repeat center;
+}
+
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom {
+    display: flex;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .item {
+    display: flex;
+    align-items: center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-max {
+    width: 119px;
+    height: 72px;
+    background: url('../Data/images/fpsCharts/bg_Max.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-min {
+    width: 119px;
+    height: 72px;
+    background: url('../Data/images/fpsCharts/bg_Min.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-avg {
+    width: 121px;
+    height: 72px;
+    background: url('../Data/images/fpsCharts/bg_Avg.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-new {
+    width: 119px;
+    height: 72px;
+    background: url('../Data/images/fpsCharts/bg_New.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .max-picture {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: url('../Data/images/fpsCharts/Max.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .min-picture {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: url('../Data/images/fpsCharts/Min.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .avg-picture {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: url('../Data/images/fpsCharts/Avg.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .new-picture {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: url('../Data/images/fpsCharts/New.png') no-repeat center;
+}
+#fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .item .label {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    #fpsCharts-frameInfo {
+        width: calc(100% - 1.5rem);
+        left: 0;
+        bottom: 3.125;
+        padding: 0 0.75rem;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-top {
+        background-size: cover;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-echarts-container {
+        height: 10.875rem;
+        width: calc(100% - 1.8125rem);
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete {
+        width: 0.9375rem;
+        height: 0.9375rem;
+        padding-top: 2.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete:hover, #fpsCharts-frameInfo .fpsCharts-frameInfo-top #fpsCharts-frameInfo-delete:active {
+        width: 0.9375rem;
+        height: 0.9375rem;
+        padding-top: 2.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom {
+        display: flex;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-max {
+        width: 7.4375rem;
+        height: 4.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-min {
+        width: 7.4375rem;
+        height: 4.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-avg {
+        width: 7.5625rem;
+        height: 4.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .bg-new {
+        width: 7.4375rem;
+        height: 4.5rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .max-picture {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .min-picture {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .avg-picture {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .new-picture {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-left: 0.625rem;
+        background-size: contain;
+    }
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom .item .label {
+        font-size: 0.875rem;
+        margin-left: 0.3125rem;
+    }
+}
+@media only screen and (max-width: 370px) {
+    #fpsCharts-frameInfo .fpsCharts-frameInfo-bottom {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,36 @@
+.mapScale {
+  color: white;
+    position: absolute;
+    bottom: 45px;
+    left: 175px;
+    z-index: 1;
+}
+ .mapScale .mapScalebg {
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    width: 80px;
+}
+.mapScale .mapScalebg .tab {
+  position: absolute;
+  bottom: 0px;
+  height: 5px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+}
+.mapScale .mapScalebg .text {
+  position: absolute;
+  bottom: 5px;
+  right: -25px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  width: 50px;
+}
+
+.mapScale .mapScaleHide {
+ width: 80px;
+}
+
+.vhidden {
+  visibility: hidden;
+}

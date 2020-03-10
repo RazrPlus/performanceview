@@ -1,0 +1,12 @@
+﻿{
+	"heatMap":
+    {
+      "offlineUrl": "Data/json/globalData.json",
+	  "onlineUrl": "https://api.waqi.info/mapq/bounds/?bounds=-85,-175,85,175&inc=placeholders&k=_2Y2EvHB9mCV0fMzsLSTJWXmpjdEU+PRkUFXgvYw==&_=1552612570980",
+      "bounds": [-150, 150, -60, 60],
+      "min": 0,
+      "max": 500,
+      "radius": 15,
+      "show": true
+    }
+}

@@ -1,0 +1,19 @@
+﻿{
+
+	"layerNodes":[
+
+	{
+		"url": "http://freexgis.henggetec.com:8080/FreeServer/gwc/service/wmts",
+		"name": "test_01:HG-Global-BJ-TW-XA",
+		"text": "hgt",
+		"format": "image/jpeg",
+		"visible": true,
+		"parentId": "layer_1",
+		"type": "WMTS"
+	}
+	],
+	"dataSources": [
+
+	
+	]
+}

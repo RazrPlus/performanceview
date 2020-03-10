@@ -1,0 +1,29 @@
+﻿[
+	{
+		"title" : "北京区域",
+		"picture" : "",
+		"video" : "",
+		"currentTime" : "2019/08/13 14:00:00",
+		"duration" : 2.0,
+		"position" : [116.40,39.90,5000.0],
+		"rotation" : [0.0,-90.0,0.0]
+	},
+	{
+		"title" : "西安区域",
+		"picture" : "",
+		"video" : "",
+		"currentTime" : "2019/08/13 14:00:05",
+		"duration" : 2.0,
+		"position" : [108.30,34.15,5000.0],
+		"rotation" : [0.0,-90.0,0.0]
+	},
+	{
+		"title" : "上海区域",
+		"picture" : "",
+		"video" : "",
+		"currentTime" : "2019/08/13 14:00:10",
+		"duration" : 2.0,
+		"position" : [121.47,31.23,5000.0],
+		"rotation" : [0.0,-90.0,0.0]
+	}
+]

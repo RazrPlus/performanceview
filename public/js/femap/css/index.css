@@ -1,0 +1,43 @@
+@import url(navigator/navigator.css);
+@import url('fpsCharts.css');
+@import url('mapScale.css');
+@import url('satelliteFragmentTip.css');
+@import url('aerialView.css');
+html,body
+{
+	margin: 0;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	width : 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+
+.mainContainer
+{
+	flex-grow: 1;
+	display: flex;
+	width : 100%;
+	height : 100%;
+}
+
+.mainContainer .viewer 
+{
+	width : 100%;
+	height : 100%;
+}
+.hgt_sliderDiv
+{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    background-color: #d47272;
+    width: 5px;
+    height: 100%;
+    z-index: 9999;
+    color: #D3D3D3;
+    cursor: ew-resize;
+}
+

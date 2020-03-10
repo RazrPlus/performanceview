@@ -1,0 +1,46 @@
+/*
+* 鹰眼图样式
+*/
+.hgt_left_up
+{
+	position:absolute;
+	height:19px;
+	width:19px;
+	left:-5px;
+	top:-5px;
+	/*background-image:url('./images/left_up.png');*/
+   background: url('../Data/images/aerialView/left_up.png')no-repeat center;
+}
+
+.hgt_left_down
+{
+	position:absolute;
+	height:19px;
+	width:19px;
+	left:-5px;
+	bottom:-5px;
+	/*background-image:url('./images/left_down.png');*/
+   background: url('../Data/images/aerialView/left_down.png')no-repeat center;
+}
+
+.hgt_right_up
+{
+	position:absolute;
+	height:19px;
+	width:19px;
+	right:-5px;
+	top:-5px;
+  /*	background-image:url('./images/right_up.png');*/
+    background: url('../Data/images/aerialView/right_up.png')no-repeat center;
+}
+
+.hgt_right_down
+{
+	position:absolute;
+	height:19px;
+	width:19px;
+	right:-5px;
+	bottom:-5px;
+/*	background-image:url('./images/right_down.png');*/
+  background: url('../Data/images/aerialView/right_down.png')no-repeat center;
+}
